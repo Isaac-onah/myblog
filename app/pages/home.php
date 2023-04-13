@@ -415,14 +415,14 @@
         <!-- Back to top -->
 
         <!-- javascript -->
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/gumshoe.js"></script>
+        <script src="<?=ROOT?>/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?=ROOT?>/assets/js/gumshoe.js"></script>
         <!-- Feather icon -->
-        <script src="js/feather.min.js"></script>
+        <script src="<?=ROOT?>/assets/js/feather.min.js"></script>
         <!-- Switcher -->
-        <script src="js/switcher.js"></script>
+        <script src="<?=ROOT?>/assets/js/switcher.js"></script>
         <!-- Main Js -->
-        <script src="js/app.js"></script>
+        <script src="<?=ROOT?>/assets/js/app.js"></script>
     </body>
 
 
