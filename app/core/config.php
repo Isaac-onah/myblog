@@ -1,4 +1,4 @@
 <?php
 
-define('ROOT', 'http://localhost/myblog/public');
+define('ROOT', 'http://localhost/zblog/public');
 define('APP_NAME', 'My Blog');
