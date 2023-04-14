@@ -44,8 +44,8 @@
         <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" class="logo-light-mode" alt="">
-                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                    <img src="<?=ROOT?>/assets/images/logo.png" class="logo-light-mode" alt="">
+                    <img src="<?=ROOT?>/assets/images/logo-light.png" class="logo-dark-mode" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span data-feather="menu" class="fea icon-md"></span>
