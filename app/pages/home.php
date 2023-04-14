@@ -12,15 +12,15 @@
         <meta name="keywords" content="Bootstrap 5, premium, marketing, multipurpose" />
         <meta content="Shreethemes" name="author" />
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="<?=ROOT?>/assets/images/favicon.ico">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?=ROOT?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
         <!-- Icon -->
-        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?=ROOT?>/assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
         <!-- Custom Css -->
-        <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+        <link href="<?=ROOT?>/assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="<?=ROOT?>/assets/css/colors/default.css" rel="stylesheet" id="color-opt">
 
     </head>
 
