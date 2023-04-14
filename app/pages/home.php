@@ -339,15 +339,15 @@
                                     <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Recent Post</h6>
                                     <div class="mt-4">
                                         <div class="clearfix d-flex align-items-center post-recent">
-                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="images/blog/07.jpg" class="img-fluid rounded"></a></div>
+                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="<?=ROOT?>/assets/images/blog/07.jpg" class="img-fluid rounded"></a></div>
                                             <div class="post-recent-content"><a href="jvascript:void(0)">Consultant Business</a><span class="text-muted">15th April, 2020</span></div>
                                         </div>
                                         <div class="clearfix d-flex align-items-center post-recent">
-                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="images/blog/08.jpg" class="img-fluid rounded"></a></div>
+                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="<?=ROOT?>/assets/images/blog/08.jpg" class="img-fluid rounded"></a></div>
                                             <div class="post-recent-content"><a href="jvascript:void(0)">Look On The Glorious Balance</a> <span class="text-muted">15th April, 2020</span></div>
                                         </div>
                                         <div class="clearfix d-flex align-items-center post-recent">
-                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="images/blog/01.jpg" class="img-fluid rounded"></a></div>
+                                            <div class="post-recent-thumb"> <a href="jvascript:void(0)"> <img alt="img" src="<?=ROOT?>/assets/images/blog/01.jpg" class="img-fluid rounded"></a></div>
                                             <div class="post-recent-content"><a href="jvascript:void(0)">Research Financial.</a> <span class="text-muted">15th April, 2020</span></div>
                                         </div>
                                     </div>
