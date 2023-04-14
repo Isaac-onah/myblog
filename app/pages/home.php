@@ -231,7 +231,7 @@
         
                             <div class="col-lg-6 col-12 mb-4 pb-2">
                                 <div class="blog-post rounded shadow">
-                                    <img src="images/blog/07.jpg" class="img-fluid rounded-top" alt="">
+                                    <img src="<?=ROOT?>/assets/images/blog/07.jpg" class="img-fluid rounded-top" alt="">
                                     <div class="content pt-4 pb-4 p-3">
                                         <ul class="list-unstyled d-flex justify-content-between post-meta">
                                             <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
@@ -248,7 +248,7 @@
         
                             <div class="col-lg-6 col-12 mb-4 pb-2">
                                 <div class="blog-post rounded shadow">
-                                    <img src="images/blog/08.jpg" class="img-fluid rounded-top" alt="">
+                                    <img src="<?=ROOT?>/assets/images/blog/08.jpg" class="img-fluid rounded-top" alt="">
                                     <div class="content pt-4 pb-4 p-3">
                                         <ul class="list-unstyled d-flex justify-content-between post-meta">
                                             <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
