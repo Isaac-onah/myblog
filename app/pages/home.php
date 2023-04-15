@@ -285,7 +285,7 @@
                                 <div class="p-4 rounded shadow">
                                     <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Author</h6>
                                     <div class="text-center author mt-4">
-                                        <img src="images/home/hero.jpg" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
+                                        <img src="<?=ROOT?>/assets/images/home/hero.jpg" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
                                         <div class="mt-4">
                                             <h6>Cristino Murphy</h6>
                                             <small>Web Designer</small>
