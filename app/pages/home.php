@@ -6,7 +6,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-md-6">
                         <div class="row">
-                        <?php include '../app/pages/includes/post-card.php'; ?>
+                            <?php  
+
+                                $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id order by id desc limit 6";
+                                $rows = query($query);
+                                if($rows)
+                                {
+                                    foreach ($rows as $row) {
+                                    include '../app/pages/includes/post-card.php';
+                                    }
+
+                                }else{
+                                    echo "No items found!";
+                                }
+
+                            ?>
 
                             <!-- PAGINATION START -->
                             <div class="col-12">                                

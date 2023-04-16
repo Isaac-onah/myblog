@@ -337,25 +337,24 @@ function resize_image($filename, $max_size = 1000)
 
 		$src_width 	= imagesx($image);
 		$src_height = imagesy($image);
-
-		if($src_width > $src_height)
+		$maxDimW = 800;
+		$maxDimH = 533;
+		if($src_width >= $maxDimW)
 		{
-			if($src_width < $max_size)
-			{
-				$max_size = $src_width;
-			}
-
+			$max_size = $src_width;
+		
 			$dst_width 	= $max_size;
-			$dst_height = ($src_height / $src_width) * $max_size;
+			$dst_height = $maxDimH;
+			// $dst_height = ($src_height / $src_width) * $max_size;
 		}else{
 			
-			if($src_height < $max_size)
+			if($src_height < $maxDimH)
 			{
 				$max_size = $src_height;
 			}
 
 			$dst_height = $max_size;
-			$dst_width 	= ($src_width / $src_height) * $max_size;
+			$dst_width 	= $maxDimW;
 		}
 
 		$dst_height = round($dst_height);
