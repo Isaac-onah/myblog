@@ -78,7 +78,16 @@
                                 <div class="container mx-0 mx-md-0">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <a class="dropdown-item" href="page-blog.html">Blog</a>
+                                            <?php  
+
+                                                $query = "select * from categories order by id desc";
+                                                $categories = query($query);
+                                            ?>
+                                            <?php if(!empty($categories)):?>
+                                            <?php foreach($categories as $cat):?>
+                                                     <a class="dropdown-item" href="<?=ROOT?>/category/<?=$cat['slug']?>">Blog</a>
+                                                <?php endforeach;?>
+                                            <?php endif;?>
                                         </div><!--end col-->
                                     </div><!--end row-->
                                 </div><!--end container-->
