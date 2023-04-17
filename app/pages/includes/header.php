@@ -85,7 +85,7 @@
                                             ?>
                                             <?php if(!empty($categories)):?>
                                             <?php foreach($categories as $cat):?>
-                                                     <a class="dropdown-item" href="<?=ROOT?>/category/<?=$cat['slug']?>">Blog</a>
+                                                     <a class="dropdown-item" href="<?=ROOT?>/category/<?=$cat['slug']?>"><?=$cat['category']?></a>
                                                 <?php endforeach;?>
                                             <?php endif;?>
                                         </div><!--end col-->
