@@ -67,7 +67,7 @@
                         <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
                             <a class="nav-link" href="#news">Blog</a>
                         </li><!--end nav item-->
-                        <li class="nav-item">
+                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
