@@ -72,7 +72,7 @@
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Catagories
                             </a>
                             <div class="dropdown-menu rounded m-0" aria-labelledby="navbarDropdown">
                                 <div class="container mx-0 mx-md-0">
