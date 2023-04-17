@@ -79,9 +79,6 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <a class="dropdown-item" href="page-blog.html">Blog</a>
-                                            <a class="dropdown-item" href="page-blog-detail.html">Blog Detail</a>
-                                            <a class="dropdown-item" href="page-portfolio.html">Portfolio</a>
-                                            <a class="dropdown-item" href="page-portfolio-detail.html">Portfolio Detail</a>
                                         </div><!--end col-->
                                     </div><!--end row-->
                                 </div><!--end container-->
