@@ -53,22 +53,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul id="navbar-navlist" class="navbar-nav navbar-nav-link mx-auto">
                         <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#news">Blog</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link" href="#contact">Home</a>
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -92,6 +77,10 @@
                                     </div><!--end row-->
                                 </div><!--end container-->
                             </div>
+                            
+                        </li><!--end nav item-->
+                        <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
                     </ul>
 
