@@ -24,18 +24,8 @@
 
                             <!-- PAGINATION START -->
                             <div class="col-12">                                
-                                <ul class="pagination justify-content-between mb-0 list-unstyled">
-                                    <li>
-                                        <ul class="pagination justify-content-start mb-0 list-unstyled">
-                                            <li><a href="<?=$PAGE['first_link']?>" class="pe-3 ps-3 pt-2 pb-2"> First Page</a></li>
-                                            <li><a href="<?=$PAGE['prev_link']?>" class="pe-3 ps-3 pt-2 pb-2"> Previous</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <ul class="pagination justify-content-end mb-0 list-unstyled">
-                                            <li><a href="<?=$PAGE['next_link']?>" class="pe-3 ps-3 pt-2 pb-2 ms-5 ">Next </a></li>
-                                        </ul>
-                                    </li>
+                                <ul class="pagination justify-content-end mb-0 list-unstyled">
+                                    <li><a href="<?=$PAGE['next_link']?>" class="pe-3 ps-3 pt-2 pb-2 ms-5 ">Next </a></li>
                                 </ul><!--end pagination-->
                             </div><!--end col-->
                             <!-- PAGINATION END -->
