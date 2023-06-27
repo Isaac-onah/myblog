@@ -25,7 +25,7 @@
                             <!-- PAGINATION START -->
                             <div class="col-12">                                
                                 <ul class="pagination justify-content-end mb-0 list-unstyled">
-                                    <li><a href="<?=$PAGE['next_link']?>" class="pe-3 ps-3 pt-2 pb-2 ms-5 ">Next </a></li>
+                                    <li><a href="<?=ROOT?>/blog" class="pe-3 ps-3 pt-2 pb-2 ms-5 ">View All Blogs </a></li>
                                 </ul><!--end pagination-->
                             </div><!--end col-->
                             <!-- PAGINATION END -->
