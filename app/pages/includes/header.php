@@ -82,6 +82,7 @@
                         <li class="nav-item <?=$url[0] =='home' ? 'link-primary':'link-dark'?>">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
+                        
                     </ul>
 
                     <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">

@@ -39,30 +39,9 @@
                     <!-- START SIDEBAR -->
                     <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="sidebar sticky-sidebar">
-                            <!-- Author -->
-                            <div class="widget">
-                                <div class="p-4 rounded shadow">
-                                    <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Author</h6>
-                                    <div class="text-center author mt-4">
-                                        <img src="<?=ROOT?>/assets/images/home/hero.jpg" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
-                                        <div class="mt-4">
-                                            <h6>Cristino Murphy</h6>
-                                            <small>Web Designer</small>
-                                            <ul class="list-unstyled social-icon social mt-4 mb-0">
-                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-vimeo"></i></a></li>
-                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-dribbble"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Author -->
-
+                            
                             <!-- SEARCH -->
-                            <div class="widget mt-4 pt-2">
+                            <div class="widget">
                                 <div class="p-4 rounded shadow">
                                     <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Search</h6>
                                     <div id="search2" class="widget-search mt-4 mb-0">
@@ -76,21 +55,6 @@
                                 </div>
                             </div>
                             <!-- SEARCH -->
-
-                            <!-- CATAGORIES -->
-                            <div class="widget mt-4 pt-2">
-                                <div class="p-4 rounded shadow">
-                                    <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Catagories</h6>
-                                    <ul class="list-unstyled mt-4 mb-0 catagories">
-                                        <li class="d-flex justify-content-between"><a href="jvascript:void(0)">Finance</a> <span>13</span></li>
-                                        <li class="d-flex justify-content-between"><a href="jvascript:void(0)">Business</a> <span>09</span></li>
-                                        <li class="d-flex justify-content-between"><a href="jvascript:void(0)">Blog</a> <span>18</span></li>
-                                        <li class="d-flex justify-content-between"><a href="jvascript:void(0)">Corporate</a> <span>20</span></li>
-                                        <li class="d-flex justify-content-between"><a href="jvascript:void(0)">Investment</a> <span>22</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- CATAGORIES -->
 
                             <!-- RECENT POST -->
                             <div class="widget mt-4 pt-2">
@@ -113,6 +77,28 @@
                                 </div>
                             </div>
                             <!-- RECENT POST -->
+
+                            <!-- Author -->
+                            <div class="widget mt-4  pt-2">
+                                <div class="p-4 rounded shadow">
+                                    <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Author</h6>
+                                    <div class="text-center author mt-4">
+                                        <img src="<?=ROOT?>/assets/images/home/hero.jpg" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
+                                        <div class="mt-4">
+                                            <h6>Cristino Murphy</h6>
+                                            <small>Web Designer</small>
+                                            <ul class="list-unstyled social-icon social mt-4 mb-0">
+                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-facebook"></i></a></li>
+                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-instagram"></i></a></li>
+                                                <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-twitter"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Author -->
+
+                            <!-- CATAGORIES -->
 
                             <!-- TAG CLOUDS -->
                             <div class="widget mt-4 pt-2 text-center">
