@@ -84,7 +84,12 @@
                         </li><!--end nav item-->
                         
                     </ul>
-
+                    <form action="<?=ROOT?>/search" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                        <div class="input-group ">
+                            <input value="<?=$_GET['find'] ?? ''?>" name="find" type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                            <button class="btn btn-primary">Find</button>
+                        </div>
+                    </form>
                     <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>

@@ -9,24 +9,24 @@
                             <?php  
                                 $limit = 9;
                                 $offset = ($PAGE['page_number'] - 1) * $limit;
-                                $category_slug = $url[1] ?? null;
+                                $find = $_GET['find'] ?? null;
 
-                                if($category_slug)
-                                {
-                                 
-                                  $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id where posts.category_id in (select id from categories where slug = :category_slug && disabled = 0) order by id desc limit $limit offset $offset";
-                                  $rows = query($query,['category_slug'=>$category_slug]);
-                                }
-                                
-                                if(!empty($rows))
-                                {
-                                  foreach ($rows as $row) {
-                                    include '../app/pages/includes/postcard.php';
-                                  }
-                      
-                                }else{
-                                  echo "No items found!";
-                                }
+                                    if($find)
+                                    {
+                                        $find = "%$find%";
+                                        $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id where posts.title like :find order by id desc limit $limit offset $offset";
+                                        $rows = query($query,['find'=>$find]);
+                                    }
+                                    
+                                    if(!empty($rows))
+                                    {
+                                        foreach ($rows as $row) {
+                                        include '../app/pages/includes/postcard.php';
+                                        }
+
+                                    }else{
+                                        echo "No items found!";
+                                    }
 
                             ?>
 
