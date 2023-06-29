@@ -1,5 +1,25 @@
 
 <?php include '../app/pages/includes/header.php'; ?>
+  <!-- Home Start -->
+  <section class="bg-half d-table w-100" style="background: url('<?=ROOT?>/assets/images/home/bg-pages.jpg')center center;">
+            <div class="bg-overlay bg-overlay-white"></div>
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="page-next-level">
+                            <h4 class="title"> Latest News or Blog </h4>
+                            <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
+                                <li><a href="index-2.html" class="text-dark">Cristino</a></li>
+                                <li>
+                                    <span class="text-primary"> Blog</span> 
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Home End -->
 
 <?php  
  
@@ -16,7 +36,7 @@
           { ?>
 
         <!-- Home Start -->
-        <section class="bg-half d-table w-100" style="background: url('images/home/bg-pages.jpg')center center;">
+        <section class="bg-half d-table w-100" style="background: url('<?=ROOT?>/assets/images/home/bg-pages.jpg')center center;">
             <div class="bg-overlay bg-overlay-white"></div>
             <div class="container">
                 <div class="row mt-5 justify-content-center">
@@ -57,10 +77,6 @@
                             <div class="content p-4">
                                 <h6 class="font-weight-normal"><i class="mdi mdi-tag text-primary me-1"></i><a href="javscript:void(0)" class="text-primary"><?=esc($row['category'] ?? 'Unknown')?></a></h6>
                                 <p class="text-muted mt-3"><?=nl2br(add_root_to_images($row['content']))?></p>
-                                <blockquote class="blockquote mt-3 p-3">
-                                    <p class="text-muted mb-0 font-italic">" There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. "</p>
-                                </blockquote>
-                                <p class="text-muted">The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout.</p>
                             </div>
                         </div>
 
