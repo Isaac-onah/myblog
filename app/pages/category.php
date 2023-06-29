@@ -9,23 +9,29 @@
                             <?php  
                                 $limit = 9;
                                 $offset = ($PAGE['page_number'] - 1) * $limit;
+                                $category_slug = $url[1] ?? null;
 
-                                $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id order by id desc limit $limit offset $offset";
-                                $rows = query($query);
-                                if($rows)
+                                if($category_slug)
                                 {
-                                    foreach ($rows as $row) {
+                                 
+                                  $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id where posts.category_id in (select id from categories where slug = :category_slug && disabled = 0) order by id desc limit $limit offset $offset";
+                                  $rows = query($query,['category_slug'=>$category_slug]);
+                                }
+                                
+                                if(!empty($rows))
+                                {
+                                  foreach ($rows as $row) {
                                     include '../app/pages/includes/postcard.php';
-                                    }
-
+                                  }
+                      
                                 }else{
-                                    echo "No items found!";
+                                  echo "No items found!";
                                 }
 
                             ?>
-                        </div><!--end row-->
-                           <!-- PAGINATION START -->
-                           <div class="col-12">                                
+
+                            <!-- PAGINATION START -->
+                            <div class="col-12">                                
                                 <ul class="pagination justify-content-between mb-0 list-unstyled">
                                     <li>
                                         <ul class="pagination justify-content-start mb-0 list-unstyled">
@@ -41,6 +47,7 @@
                                 </ul><!--end pagination-->
                             </div><!--end col-->
                             <!-- PAGINATION END -->
+                        </div><!--end row-->
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
