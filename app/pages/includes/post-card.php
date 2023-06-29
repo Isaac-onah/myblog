@@ -6,7 +6,7 @@
                 <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
                 <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark"><?=esc($row['category'] ?? 'Unknown')?></a></li>                                    
             </ul> 
-            <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">These Are The Voyages of The Starship Enterprise</a></h5>
+            <h5 class="mb-3"><a href="<?=ROOT?>/post/<?=$row['slug']?>" class="title text-dark"><?=esc($row['title'])?></a></h5>
             <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
                 <li><a href="<?=ROOT?>/post/<?=$row['slug']?>" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
                 <li><i class="mdi mdi-calendar-edit me-1"></i><?=date("jS M, Y",strtotime($row['date']))?></li>
