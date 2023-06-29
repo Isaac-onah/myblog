@@ -1,6 +1,46 @@
 
 <?php include '../app/pages/includes/header.php'; ?>
 
+<?php  
+ 
+          $slug = $url[1] ?? null;
+
+          if($slug)
+          {
+            $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id where posts.slug = :slug limit 1";
+            $row = query_row($query, ['slug'=>$slug]);
+            
+          }
+
+          if(!empty($row))
+          { ?>
+
+        <!-- Home Start -->
+        <section class="bg-half d-table w-100" style="background: url('images/home/bg-pages.jpg')center center;">
+            <div class="bg-overlay bg-overlay-white"></div>
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="page-next-level">
+                            <h4 class="title"><?=esc($row['title'])?></h4>
+                            <ul class="list-unstyled mt-3">
+                                <li class="list-inline-item me-3"><i class="mdi mdi-tag-outline me-1"></i><a href="javascript:void(0)" class="text-muted"><?=esc($row['category'] ?? 'Unknown')?></a></li>
+                                <li class="list-inline-item me-3"><i class="mdi mdi-account-heart me-1"></i><a href="javascript:void(0)" class="text-muted">Cristino Murphy</a></li>
+                                <li class="list-inline-item"><i class="mdi mdi-calendar-edit me-1"></i><span class="text-muted"><?=date("jS M, Y",strtotime($row['date']))?></span> </li>
+                            </ul>
+                            <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
+                                <li><a href="<?=ROOT?>" class="text-dark">Home</a></li>
+                                <li><a href="page-blog.html" class="text-dark">Blog</a></li> 
+                                <li>
+                                    <span class="text-primary"> Blog Detail</span> 
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+
         <!-- Blog STart -->
         <section class="section">
             <div class="container">
@@ -133,77 +173,13 @@
                     <!-- BLog End -->
                 </div><!--end row-->
             </div><!--end container-->
-
-            <div class="container mt-100 mt-60">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <div class="section-title">
-                            <div class="position-relative">
-                                <h4 class="title text-uppercase mb-4">Related Post</h4>
-                                <div>
-                                    <div class="title-box"></div>
-                                    <div class="title-line"></div>
-                                </div>
-                            </div>
-                            <p class="text-muted mx-auto para-desc mt-5 mb-0">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
-                        </div>
-                    </div><!--end col-->
-                </div><!--end row-->
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
-                            <img src="images/blog/01.jpg" class="img-fluid rounded-top" alt="">
-                            <div class="content pt-4 pb-4 p-3">
-                                <ul class="list-unstyled d-flex justify-content-between post-meta">
-                                            <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
-                                            <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
-                                        </ul>  
-                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">Our Home Entertainment has Evolved Significantly</a></h5> 
-                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
-                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
-                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
-                                </ul>
-                            </div><!--end content-->
-                        </div><!--end blog post-->
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
-                            <img src="images/blog/02.jpg" class="img-fluid rounded-top" alt="">
-                            <div class="content pt-4 pb-4 p-3">
-                                <ul class="list-unstyled d-flex justify-content-between post-meta">
-                                            <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
-                                            <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
-                                        </ul> 
-                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">These Are The Voyages of The Starship Enterprise</a></h5>
-                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
-                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
-                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
-                                </ul>
-                            </div><!--end content-->
-                        </div><!--end blog post-->
-                    </div><!--end col-->
-
-                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
-                            <img src="images/blog/03.jpg" class="img-fluid rounded-top" alt="">
-                            <div class="content pt-4 pb-4 p-3">
-                                <ul class="list-unstyled d-flex justify-content-between post-meta">
-                                            <li><i data-feather="user" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Cristino</a></li> 
-                                            <li><i data-feather="tag" class="fea icon-sm me-1"></i><a href="javascript:void(0)" class="text-dark">Branding</a></li>                                    
-                                        </ul> 
-                                <h5 class="mb-3"><a href="page-blog-detail.html" class="title text-dark">Three Reasons Visibility Matters in Supply Chain</a></h5>
-                                <ul class="list-unstyled mb-0 pt-3 border-top d-flex justify-content-between">
-                                    <li><a href="javascript:void(0)" class="text-dark">Read More <i data-feather="chevron-right" class="fea icon-sm"></i></a></li>
-                                    <li><i class="mdi mdi-calendar-edit me-1"></i>10th April, 2020</li>
-                                </ul>
-                            </div><!--end content-->
-                        </div><!--end blog post-->
-                    </div><!--end col-->
-                </div><!--end row-->
-            </div><!--end container-->
         </section>
         <!-- Blog -->
 
+        <?php 
+          }else{
+            echo "No items found!";
+          }
+
+        ?>
         <?php include '../app/pages/includes/footer.php'; ?>
