@@ -1,25 +1,5 @@
 
 <?php include '../app/pages/includes/header.php'; ?>
-  <!-- Home Start -->
-  <section class="bg-half d-table w-100" style="background: url('<?=ROOT?>/assets/images/home/bg-pages.jpg')center center;">
-            <div class="bg-overlay bg-overlay-white"></div>
-            <div class="container">
-                <div class="row mt-5 justify-content-center">
-                    <div class="col-lg-12 text-center">
-                        <div class="page-next-level">
-                            <h4 class="title"> Latest News or Blog </h4>
-                            <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
-                                <li><a href="index-2.html" class="text-dark">Cristino</a></li>
-                                <li>
-                                    <span class="text-primary"> Blog</span> 
-                                </li> 
-                            </ul>
-                        </div>
-                    </div>  <!--end col-->
-                </div><!--end row-->
-            </div> <!--end container-->
-        </section><!--end section-->
-        <!-- Home End -->
 
 <?php  
  
@@ -50,7 +30,7 @@
                             </ul>
                             <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
                                 <li><a href="<?=ROOT?>" class="text-dark">Home</a></li>
-                                <li><a href="page-blog.html" class="text-dark">Blog</a></li> 
+                                <li><a href="<?=ROOT?>/blog" class="text-dark">Blog</a></li> 
                                 <li>
                                     <span class="text-primary"> Blog Detail</span> 
                                 </li> 

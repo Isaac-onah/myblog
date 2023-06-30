@@ -55,25 +55,8 @@
                     <!-- START SIDEBAR -->
                     <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <div class="sidebar sticky-sidebar">
-                            
-                            <!-- SEARCH -->
-                            <div class="widget">
-                                <div class="p-4 rounded shadow">
-                                    <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Search</h6>
-                                    <div id="search2" class="widget-search mt-4 mb-0">
-                                        <form role="search" method="get" id="searchform" class="searchform">
-                                            <div>
-                                                <input type="text" class="border rounded" name="s" id="s" placeholder="Search Keywords...">
-                                                <input type="submit" id="searchsubmit" value="Search">
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- SEARCH -->
-
                             <!-- RECENT POST -->
-                            <div class="widget mt-4 pt-2">
+                            <div class="widget">
                                 <div class="p-4 rounded shadow">
                                     <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Recent Post</h6>
                                     <div class="mt-4">

@@ -100,4 +100,10 @@
 		</nav><!--end navbar-->
         <!-- Navbar End -->
 
+        <?php
+
+            if($url[0] == 'home')
+            include '../app/pages/includes/slider.php'; 
+        ?>
+
       
