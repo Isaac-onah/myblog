@@ -37,6 +37,7 @@
         <script src="<?=ROOT?>/assets/js/feather.min.js"></script>
         <!-- Switcher -->
         <script src="<?=ROOT?>/assets/js/switcher.js"></script>
+        
         <!-- Main Js -->
         <script src="<?=ROOT?>/assets/js/app.js"></script>
         

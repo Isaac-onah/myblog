@@ -40,7 +40,7 @@
         <!-- Loader -->
         
         <!-- Navbar Start -->
-        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky nav-sticky">
     		<div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="<?=ROOT?>/assets/images/logo.png" class="logo-light-mode" alt="">
