@@ -23,7 +23,7 @@
 .sidebar .widget .tagcloud > a:hover,
 .tns-nav button.tns-nav-active,
 .personal-hero:before {
-    background-color: #e54b4b !important;
+    background-color: #3c873a !important;
 }
 
 .text-primary,
@@ -54,7 +54,7 @@
 .sidebar .widget .catagories li a:hover,
 .sidebar .widget .post-recent .post-recent-content a:hover,
 .comment-area .media-list .media .media-body a:hover {
-    color: #e54b4b !important;
+    color: #3c873a !important;
 }
 
 .btn-primary,
@@ -73,12 +73,12 @@
 .section-title .title-box:after,
 .owl-theme .owl-controls .owl-page span,
 .tns-nav button {
-    border-color: #e54b4b !important;
+    border-color: #3c873a !important;
 }
 
 a.text-primary:hover, 
 a.text-primary:focus {
-    color: #dd2020 !important;
+    color: #13a30e !important;
 }
 
 .btn-primary,
@@ -88,7 +88,7 @@ a.text-primary:focus {
 .btn-outline-primary.active, 
 .btn-outline-primary.focus, 
 .btn-outline-primary:not(:disabled):not(.disabled):active {
-    box-shadow: 0 3px 5px 0 rgba(229, 75, 75, 0.3);
+    box-shadow: 0 3px 5px 0 rgba(15, 172, 7, 0.3);
 }
 
 .btn-primary:hover, 
@@ -96,8 +96,8 @@ a.text-primary:focus {
 .btn-primary:active, 
 .btn-primary.active, 
 .btn-primary.focus {
-    background-color: #dd2020 !important;
-    border-color: #dd2020 !important;
+    background-color: #13a30e !important;
+    border-color: #13a30e !important;
 }
 
 .bg-overlay-primary {
