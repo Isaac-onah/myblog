@@ -62,10 +62,10 @@
                                 <div class="p-4 rounded shadow">
                                     <h6 class="widget-title font-weight-bold pt-2 pb-2 bg-light rounded text-center">Author</h6>
                                     <div class="text-center author mt-4">
-                                        <img src="<?=ROOT?>/assets/images/home/hero.jpg" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
+                                        <img src="<?=ROOT?>/assets/images/home/hero1.png" class="avatar avatar-md shadow border mx-auto rounded-circle" alt="">
                                         <div class="mt-4">
-                                            <h6>Cristino Murphy</h6>
-                                            <small>Web Designer</small>
+                                            <h6>Isaac Onah</h6>
+                                            <small>SoftWare Developer</small>
                                             <ul class="list-unstyled social-icon social mt-4 mb-0">
                                                 <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-facebook"></i></a></li>
                                                 <li class="list-inline-item"><a href="jvascript:void(0)" class="rounded"><i class="mdi mdi-instagram"></i></a></li>
