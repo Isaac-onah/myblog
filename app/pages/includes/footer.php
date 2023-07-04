@@ -4,7 +4,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <a href="#"><img src="images/logo-light.png" alt=""></a>
-                        <ul class="list-unstyled mb-0 mt-4 social-icon">
+                        <ul class="list-unstyled mb-0 social-icon">
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
