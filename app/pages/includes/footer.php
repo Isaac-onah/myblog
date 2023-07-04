@@ -4,7 +4,6 @@
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
                         <a href="#"><img src="images/logo-light.png" alt=""></a>
-                        <p class="para-desc mx-auto mt-5">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <ul class="list-unstyled mb-0 mt-4 social-icon">
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
@@ -19,27 +18,32 @@
         </footer><!--end footer-->
         <footer class="footer footer-bar bg-dark">
             <div class="container text-foot text-center">
-                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Cristino. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                <p class="mb-0">
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                </p>
             </div><!--end container-->
         </footer><!--end footer-->
         <!-- Footer End -->
-        
+
         <!-- Back to top -->
-        <a href="#" onclick="topFunction()" class="back-to-top rounded text-center" id="back-to-top"> 
-            <i class="mdi mdi-chevron-up d-block"> </i> 
+        <a href="#" onclick="topFunction()" class="back-to-top rounded text-center" id="back-to-top">
+            <i class="mdi mdi-chevron-up d-block"> </i>
         </a>
         <!-- Back to top -->
 
         <!-- javascript -->
-        <script src="<?=ROOT?>/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="<?=ROOT?>/assets/js/gumshoe.js"></script>
+        <script src="<?= ROOT ?>/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?= ROOT ?>/assets/js/gumshoe.js"></script>
         <!-- Feather icon -->
-        <script src="<?=ROOT?>/assets/js/feather.min.js"></script>
+        <script src="<?= ROOT ?>/assets/js/feather.min.js"></script>
         <!-- Switcher -->
-        <script src="<?=ROOT?>/assets/js/switcher.js"></script>
-        
+        <script src="<?= ROOT ?>/assets/js/switcher.js"></script>
+
         <!-- Main Js -->
-        <script src="<?=ROOT?>/assets/js/app.js"></script>
-        
-    </body>
-</html>
+        <script src="<?= ROOT ?>/assets/js/app.js"></script>
+
+        </body>
+
+        </html>
