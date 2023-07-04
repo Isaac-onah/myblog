@@ -8,7 +8,7 @@
                         <div class="page-next-level">
                             <h4 class="title"> Latest News or Blog </h4>
                             <ul class="page-next bg-light d-inline-block py-2 px-4 mt-3 rounded mb-0">
-                                <li><a href="index-2.html" class="text-dark">Cristino</a></li>
+                                <li><a href="<?= ROOT ?>" class="text-dark">Home</a></li>
                                 <li>
                                     <span class="text-primary"> Blog</span> 
                                 </li> 
