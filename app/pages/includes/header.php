@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from shreethemes.in/cristino/layouts/page-blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jun 2023 12:19:56 GMT -->
-
 <head>
     <meta charset="utf-8" />
     <title>Home - <?= APP_NAME ?></title>
