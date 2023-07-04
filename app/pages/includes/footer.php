@@ -42,7 +42,4 @@
         <script src="<?=ROOT?>/assets/js/app.js"></script>
         
     </body>
-
-
-<!-- Mirrored from shreethemes.in/cristino/layouts/page-blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Jun 2023 12:20:12 GMT -->
 </html>

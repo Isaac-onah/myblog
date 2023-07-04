@@ -8,7 +8,7 @@
                 <div class="row">
                     <?php
 
-                    $query = "select posts.*,categories.category from posts join categories on posts.category_id = categories.id order by id desc limit 6";
+                    $query = "select posts.*, categories.category, users.username from posts join categories on posts.category_id = categories.id join users on posts.user_id = users.id order by id desc limit 6";
                     $rows = query($query);
                     if ($rows) {
                         foreach ($rows as $row) {
