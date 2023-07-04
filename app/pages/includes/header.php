@@ -92,10 +92,9 @@
                     </div>
                 </form>
                 <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/Aiyziq"><i class="mdi mdi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/isaaconah"><i class="mdi mdi-linkedin"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/aiyzihk/"><i class="mdi mdi-instagram"></i></a></li>
                 </ul>
             </div>
         </div><!--end container-->

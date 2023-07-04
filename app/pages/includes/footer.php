@@ -5,12 +5,9 @@
                     <div class="col-12 text-center">
                         <a href="#"><img src="images/logo-light.png" alt=""></a>
                         <ul class="list-unstyled mb-0 social-icon">
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-vimeo"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
-                            <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/Aiyziq"><i class="mdi mdi-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/isaaconah"><i class="mdi mdi-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/aiyzihk/"><i class="mdi mdi-instagram"></i></a></li>
                         </ul>
                     </div><!--end col-->
                 </div><!--end row-->
