@@ -19,6 +19,7 @@
     <!-- Custom Css -->
     <link href="<?= ROOT ?>/assets/css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
     <link href="<?= ROOT ?>/assets/css/colors/default.css" rel="stylesheet" id="color-opt">
+    <link href="<?= ROOT ?>/assets/css/sliderstyle.css" rel="stylesheet">
 
 </head>
 
