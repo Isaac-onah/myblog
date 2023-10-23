@@ -49,7 +49,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="buttons">
+						<div class="buttons justify-content-between">
 							<button id="prevzar"><i class="fa-solid fa-angle-left"></i></button>
 							<button id="nextzar"><i class="fa-solid fa-angle-right"></i></button>
 						</div>
