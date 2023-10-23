@@ -1,55 +1,77 @@
-<link rel="stylesheet" href="<?= ROOT ?>/assets/css/sliderstyle.css">
+<link href="<?= ROOT ?>/assets/css/sliderstyle.css" rel="stylesheet">
 
 <!--image slider start-->
-<div class="slider">
-	<div class="slides">
-		<!--radio buttons start-->
-		<input type="radio" name="radio-btn" id="radio1">
-		<input type="radio" name="radio-btn" id="radio2">
-		<input type="radio" name="radio-btn" id="radio3">
-		<input type="radio" name="radio-btn" id="radio4">
-		<!--radio buttons end-->
-		<!--slide images start-->
-		<div class="slide first">
-			<img src="<?= ROOT ?>/assets/images/img-1.jpg" alt="">
+<section class="section">
+	<div class="containerzar">
+		<div id="slizar">
+			<div class="itemzar" style="background-image: url(1.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
+			<div class="itemzar" style="background-image: url(4.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
+			<div class="itemzar" style="background-image: url(3.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
+			<div class="itemzar" style="background-image: url(4.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
+			<div class="itemzar" style="background-image: url(5.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
+			<div class="itemzar" style="background-image: url(6.jpg);">
+				<div class="contentzar">
+					<div class="namezar">LUNDEV</div>
+					<div class="des">Tinh ru anh di chay pho, chua kip chay pho thi anhchay mat tieu</div>
+					<button>See more</button>
+				</div>
+			</div>
 		</div>
-		<div class="slide">
-			<img src="<?= ROOT ?>/assets/images/img-2.jpg" alt="">
+		<div class="buttons">
+			<button id="prevzar"><i class="fa-solid fa-angle-left"></i></button>
+			<button id="nextzar"><i class="fa-solid fa-angle-right"></i></button>
 		</div>
-		<div class="slide">
-			<img src="<?= ROOT ?>/assets/images/img-3.jpg" alt="">
-		</div>
-		<div class="slide">
-			<img src="<?= ROOT ?>/assets/images/img-4.jpg" alt="">
-		</div>
-		<!--slide images end-->
-		<!--automatic navigation start-->
-		<div class="navigation-auto">
-			<div class="auto-btn1"></div>
-			<div class="auto-btn2"></div>
-			<div class="auto-btn3"></div>
-			<div class="auto-btn4"></div>
-		</div>
-		<!--automatic navigation end-->
 	</div>
-	<!--manual navigation start-->
-	<div class="navigation-manual">
-		<label for="radio1" class="manual-btn"></label>
-		<label for="radio2" class="manual-btn"></label>
-		<label for="radio3" class="manual-btn"></label>
-		<label for="radio4" class="manual-btn"></label>
-	</div>
-	<!--manual navigation end-->
-</div>
+</section>
 <!--image slider end-->
 
-<script type="text/javascript">
-	var counter = 1;
-	setInterval(function() {
-		document.getElementById('radio' + counter).checked = true;
-		counter++;
-		if (counter > 4) {
-			counter = 1;
-		}
-	}, 5000);
+<script>
+	document.getElementById('nextzar').onclick = function() {
+		let lists = document.querySelectorAll('.itemzar');
+		document.getElementById('slizar').appendChild(lists[0]);
+	}
+	document.getElementById('prevzar').onclick = function() {
+		let lists = document.querySelectorAll('.itemzar');
+		document.getElementById('slizar').prepend(lists[lists.length - 1]);
+	}
+
+	// Function to go to the next item
+	function nextItem() {
+		let lists = document.querySelectorAll('.itemzar');
+		document.getElementById('slizar').appendChild(lists[0]);
+	}
+
+	// Set up a timer to automatically go to the next item
+	const autoSlideInterval = 5000; // Adjust the interval as needed (in milliseconds)
+	let autoSlideTimer = setInterval(nextItem, autoSlideInterval);
 </script>
