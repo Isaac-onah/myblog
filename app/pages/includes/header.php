@@ -9,6 +9,8 @@
     <meta name="keywords" content="Bootstrap 5, premium, marketing, multipurpose" />
     <meta content="Shreethemes" name="author" />
     <!-- favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="shortcut icon" href="<?= ROOT ?>/assets/images/favicon.ico">
     <!-- Bootstrap -->
     <link href="<?= ROOT ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
