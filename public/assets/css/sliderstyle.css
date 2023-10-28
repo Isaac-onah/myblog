@@ -98,9 +98,10 @@
 }
 .buttons{
     position: relative;
-    bottom:30px;
+    top:30%;
+    left: 60%;
     z-index: 2;
-    width:100%;
+    width:50%;
 }
 .buttons button{
     width:50px;
